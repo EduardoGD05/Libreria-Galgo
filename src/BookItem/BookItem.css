@@ -1,0 +1,54 @@
+.resItemTable {
+  margin: auto;
+  background-color: azure;
+  min-width: 700px;
+}
+.td {
+  vertical-align: top;
+}
+
+#BookItemTitle {
+  font-size: larger;
+}
+
+.TextLabel {
+  font-size: large;
+  font-weight: 650;
+}
+
+.TextLink {
+  font-size: large;
+  color: black;
+  text-decoration: solid;
+}
+
+.TextLink:hover {
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.726);
+}
+
+.portada {
+  display: block;
+  text-align: center; /* Alinear el contenido al centro horizontalmente */
+}
+
+.portada img {
+  border-width: 1px;
+  border-radius: 5px;
+  display: inline;
+  vertical-align: top; /* Alinear la imagen en la parte superior */
+  width: 200px;
+  height: 300px;
+}
+
+.bookDetailsBox {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea si no hay suficiente espacio horizontal */
+  justify-content: flex-start; /* Alinea los elementos horizontalmente con espacio entre ellos */
+  text-align: center;
+}
+.bookProperty {
+  min-width: auto;
+  margin-right: 10px;
+  font-weight: 650;
+}

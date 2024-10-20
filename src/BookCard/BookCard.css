@@ -1,0 +1,37 @@
+.LibroDesc {
+  text-align: center;
+  align-items: center;
+  vertical-align: center;
+  width: 160px;
+  background-color: #ffffffdc;
+}
+
+.Title {
+  font-size: medium;
+}
+
+.Portada {
+  border-radius: 5px;
+  width: 150px;
+  height: 200px;
+}
+
+.LibroSinopsis {
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.Button {
+  font-size: medium;
+  font-weight: 650;
+  font-style: oblique;
+  margin-top: 5px;
+  background-color: rgba(65, 105, 225, 0.815);
+}
+
+div {
+  padding: 5px;
+}
