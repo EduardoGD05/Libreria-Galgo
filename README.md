@@ -1,7 +1,46 @@
-# Getting Started with Create React App
+# Librería Galgo
+Página web para una biblioteca digital, hecho con node.js y librerías como React y react bootstrap.
+Este proyecto fue realizado en conjunto con [AnaCrisGM](hhtps//github.com/AnaCrisGM), utilizamos mongodb 
+para la base de datos y Cloudinary para las ligas de las imagenes.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Como datos adicionales, es necesario correr el comando de conexión para poder conectarse con la base de datos
+node mongo.js desde una terminal y desde otra terminal inicializar node.js con npm start.
 
+
+Librería Galgo es una biblioteca digital diseñada para proporcionar acceso libre a una amplia variedad de libros. Desarrollada con React, esta aplicación intuitiva y responsiva permite a los usuarios explorar y descubrir literatura de manera sencilla y eficiente.
+
+# Características Principales
+- Página Inicial: Una interfaz amigable donde los libros están organizados por categorías, facilitando la navegación y el descubrimiento de nuevas lecturas.
+
+- Búsqueda y Filtrado: Una funcionalidad avanzada para mostrar y clasificar resultados de búsqueda, permitiendo a los usuarios encontrar rápidamente los libros que desean.
+
+- Detalles del Libro: Cada libro tiene su propia página dedicada que presenta una descripción detallada, junto con enlaces de descarga y acceso directo a los libros.
+
+- Autenticación de Usuarios: Incluye páginas de Login y Signup para que los usuarios puedan crear cuentas y gestionar sus preferencias de lectura.
+
+
+# Vistas de la página
+***Página principal***
+![Main](Capturas/LG1-Main.png)
+
+***Página de resultados de busqueda***
+![Search](Capturas/LG2-Search.png)
+
+***Página del libro***
+![Book Page](Capturas/LG3-BookPage.png)
+
+***Links para descarga o lectura del libro***
+![Download Link](Capturas/LG4-DownloadLink.png)
+
+***Página para crear una cuenta***
+![Create Account](Capturas/LG5-CreateAccount.png)
+
+***Página para inciar sesión***
+![Login](Capturas/LG6-Login.png)
+
+
+
+ 
 ## Available Scripts
 
 In the project directory, you can run:
